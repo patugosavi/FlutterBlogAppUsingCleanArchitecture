@@ -24,3 +24,16 @@ Output -
   <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/onboardpage.png" alt="Onboard Page" width="45%">
   <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/loginpage.png" alt="Login Page" width="45%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/homepage.png" alt="Home Page" width="45%">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/categoriespage.png" alt="Categories Page" width="45%">
+</p>
+<p align="center">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/addcategorypage.png" alt="Add Category Page" width="45%">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/tagspage.png" alt="Tags Page" width="45%">
+</p>
+<p align="center">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/addpostpage.png" alt="Add Post Page" width="45%">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/profilepage.png" alt="Profile Page" width="45%">
+</p>
