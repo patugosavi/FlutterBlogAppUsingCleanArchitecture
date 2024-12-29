@@ -14,3 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+Learn from : https://www.youtube.com/watch?v=xzelUOEhEhU&t=1s
+
+Output - 
+
+<p align="center">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/onboardpage.png" alt="Onboard Page" width="45%">
+  <img src="https://github.com/patugosavi/FlutterBlogAppUsingCleanArchitecture/blob/main/assets/images/outputs/loginpage.png" alt="Login Page" width="45%">
+</p>
