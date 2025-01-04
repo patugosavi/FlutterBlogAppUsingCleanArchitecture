@@ -14,7 +14,7 @@ class OnBoardThird extends StatelessWidget {
           height: 333.h,
           width: 333.w,
         ),
-        "Explore a wide selection of categories, or use the search bar to find specific topics"
+        "Explore a wide selection of categories, or use the search bar to find specific topics".i18n
             .text
             .color(MyColors.blackColor)
             .size(15.sp)

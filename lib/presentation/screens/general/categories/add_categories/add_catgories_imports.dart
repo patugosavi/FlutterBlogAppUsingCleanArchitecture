@@ -9,7 +9,6 @@ import 'package:velocity_bloc/velocity_bloc.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../../../../common_widgets/common_widget_imports.dart';
-import '../../../../router/router_imports.gr.dart';
 
 part 'add_categories.dart';
 part 'add_categories_view_model.dart';

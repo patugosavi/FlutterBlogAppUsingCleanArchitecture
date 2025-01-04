@@ -2,6 +2,8 @@
 //
 //     final homeModel = homeModelFromJson(jsonString);
 
+// ignore_for_file: constant_identifier_names
+
 import 'dart:convert';
 
 HomeModel homeModelFromJson(String str) => HomeModel.fromJson(json.decode(str));

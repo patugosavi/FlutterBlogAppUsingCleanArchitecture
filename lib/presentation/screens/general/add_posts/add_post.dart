@@ -36,7 +36,15 @@ class _AddPostState extends State<AddPost> {
             bloc: addPostViewModel.isLoadingBloc,
             builder: (context, state) {
               return IconButton(
-                  onPressed: () => addPostViewModel.addPost(context,context.read<VelocityBloc<ProfileModel>>().state.data.userDetails!.id.toString()),
+                  onPressed: () => addPostViewModel.addPost(
+                      context,
+                      context
+                          .read<VelocityBloc<ProfileModel>>()
+                          .state
+                          .data
+                          .userDetails!
+                          .id
+                          .toString()),
                   icon: state.data == true
                       ? const CircularProgressIndicator.adaptive(
                           backgroundColor: MyColors.whiteColor,
@@ -69,7 +77,7 @@ class _AddPostState extends State<AddPost> {
                         ).cornerRadius(20.r),
                   IconButton(
                     onPressed: () => addPostViewModel.pickImage(context),
-                    icon: const Icon(
+                    icon: Icon(
                       FeatherIcons.camera,
                       color: MyColors.primaryColor,
                     ),
@@ -163,12 +171,20 @@ class _AddPostState extends State<AddPost> {
           20.h.heightBox,
           QuillSimpleToolbar(
             controller: addPostViewModel._controller,
-            configurations: const QuillSimpleToolbarConfigurations(),
+            configurations: QuillSimpleToolbarConfigurations(
+              sharedConfigurations: QuillSharedConfigurations(
+                locale: I18n.locale,
+              ),
+            ),
           ),
           Expanded(
             child: QuillEditor.basic(
               controller: addPostViewModel._controller,
-              configurations: const QuillEditorConfigurations(),
+              configurations: QuillEditorConfigurations(
+                sharedConfigurations: QuillSharedConfigurations(
+                  locale: I18n.locale,
+                ),
+              ),
             ),
           )
         ],

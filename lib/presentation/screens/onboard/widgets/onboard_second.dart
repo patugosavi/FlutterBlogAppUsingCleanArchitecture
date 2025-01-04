@@ -14,7 +14,7 @@ class OnBoardSecond extends StatelessWidget {
           height: 333.h,
           width: 333.w,
         ),
-        "Customize your reading experience and join the conversation by creating an account."
+        "Customize your reading experience and join the conversation by creating an account.".i18n
             .text
             .color(MyColors.blackColor)
             .size(15.sp)

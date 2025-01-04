@@ -29,6 +29,12 @@ class _ProfileState extends State<Profile> {
         actions: [
           IconButton(
             onPressed: () {
+              AutoRouter.of(context).push(const LanguageRoute());
+            },
+            icon: const Icon(FeatherIcons.globe).pOnly(right: 10.w),
+          ),
+          IconButton(
+            onPressed: () {
               profileViewModels.logout(context);
             },
             icon: const Icon(FeatherIcons.logOut).pOnly(right: 10.w),
@@ -41,7 +47,7 @@ class _ProfileState extends State<Profile> {
         builder: (context, state) {
           if (state is VelocityInitialState) {
             return const Center(
-              child:  CircularProgressIndicator.adaptive(),
+              child: CircularProgressIndicator.adaptive(),
             );
           } else if (state is VelocityUpdateState) {
             return RefreshIndicator(
